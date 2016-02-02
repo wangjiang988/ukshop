@@ -1,0 +1,63 @@
+[2015-12-02 09:59:31] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-12-02 10:07:32] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-12-02 15:16:27] /uk86/index.php?act=wap_circle&op=circleMemberApply ( act=wap_circle&op=circlememberapply ) 
+ERR: Db Error: Duplicate entry '12-1' for key 'PRIMARY'
+INSERT  INTO `ukshop_circle_member` (member_id,circle_id,circle_name,member_name,cm_applycontent,cm_applytime,cm_state,cm_jointime,cm_intro,is_identity) VALUES ('12','1','优康商城','xsh@163.com','11112222','1449040587','1','1449040587','112的撒范德萨发','3')
+[2015-12-02 19:02:10] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:04:04] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:06:09] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:06:22] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:07:28] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:07:38] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:07:59] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:10:19] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:11:34] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:11:47] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:11:54] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:12:02] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:12:26] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:12:33] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:13:53] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:14:14] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:14:23] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  
+[2015-12-02 19:14:47] /uk86/index.php?act=wap_circle&op=circleTheme&c_id=1&theme_id=3 ( act=wap_circle&op=circletheme ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AN' at line 1
+SELECT member_id, member_name, reply_content, reply_addtime,  FROM `ukshop_circle_threply` WHERE ( circle_id = '1' ) AND ( theme_id = '3' ) AND ( is_closed = '0' ) ORDER BY reply_addtime desc LIMIT 1000  

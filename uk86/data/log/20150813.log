@@ -1,0 +1,6 @@
+[2015-08-13 17:20:48] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-13 17:21:04] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  

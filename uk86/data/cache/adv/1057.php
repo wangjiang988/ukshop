@@ -1,0 +1,15 @@
+<?php defined('InUk86') or exit('Access Invalid!'); return array (
+  'ap_id' => '1057',
+  'ap_name' => '商城推荐-2',
+  'ap_intro' => '',
+  'ap_class' => '0',
+  'ap_display' => '2',
+  'is_use' => '1',
+  'ap_width' => '388',
+  'ap_height' => '258',
+  'ap_price' => '0',
+  'adv_num' => '0',
+  'click_num' => '0',
+  'default_content' => '05075794300013071.gif',
+  'adv_type' => '2',
+);

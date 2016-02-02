@@ -1,0 +1,36 @@
+[2015-12-04 10:02:41] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-12-04 10:35:30] /uk86/index.php?act=wap_member_fcode&op=memberCircle ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:35:35] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:35:56] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:36:21] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:36:34] /uk86/index.php?act=wap_member_fcode&op=memberCircle ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:39:24] /uk86/index.php?act=wap_member_fcode&op=memberCircle ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:39:28] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:40:15] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:40:23] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:40:27] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  
+[2015-12-04 10:40:30] /uk86/index.php?act=wap_member_fcode&op=memberCircle&type=0 ( act=wap_member_fcode&op=membercircle ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' )' at line 1
+SELECT circle_id, circle_name, circle_masterid, circle_mastername, circle_img, circle_mcount, circle_thcount, circle_addtime,  FROM `ukshop_circle` WHERE ( circle_status = '1' ) AND ( circle_masterid = '2' ) LIMIT 1000  

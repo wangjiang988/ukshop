@@ -1,0 +1,6 @@
+[2015-11-14 12:27:42] /uk86/shop/index.php?act=store_sns&op=setting&inajax=1 ( act=store_sns&op=setting ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `ukshop_store_sns_setting` (sauto_storeid,sauto_new,sauto_newtitle,sauto_coupon,sauto_coupontitle,sauto_xianshi,sauto_xianshititle,sauto_mansong,sauto_mansongtitle,sauto_bundling,sauto_bundlingtitle,sauto_groupbuy) VALUES ('1','1','','0','','1','','1','','1','','1')
+[2015-11-14 12:27:45] /uk86/shop/index.php?act=store_sns&op=setting&inajax=1 ( act=store_sns&op=setting ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+INSERT  INTO `ukshop_store_sns_setting` (sauto_storeid,sauto_new,sauto_newtitle,sauto_coupon,sauto_coupontitle,sauto_xianshi,sauto_xianshititle,sauto_mansong,sauto_mansongtitle,sauto_bundling,sauto_bundlingtitle,sauto_groupbuy) VALUES ('1','1','','0','','1','','1','','1','','1')

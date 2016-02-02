@@ -1,0 +1,65 @@
+
+/**
+ * jim 
+ * per_center.css
+ */
+.per_center_list_1{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.per_center_list_1 ul li{
+	height: 1rem;
+	line-height: 1rem;
+	background: #fff;
+	color: #474747;
+	font-size: 0.3rem;
+	border: 0.02rem solid #C0C0C0;
+	margin-top:-0.02rem;
+}
+.per_center_list_1 ul li span{
+	margin-left: 0.3rem;
+}
+.per_center_list_1 ul li img{
+	float: right;
+	margin-top: 0.35rem;
+    margin-right: 0.2rem;
+}
+.per_center_list_2{
+	width: 100%;
+	margin-top: 1rem;
+}
+.per_center_list_2 ul li{
+	height: 1rem;
+	line-height: 1rem;
+	background: #fff;
+	color: #474747;
+	font-size: 0.3rem;
+	border: 0.02rem solid #C0C0C0;
+	margin-top:-0.02rem;
+}
+.per_center_list_2 ul li span{
+	margin-left: 0.3rem;
+}
+.per_center_list_2 ul li img{
+	float: right;
+	margin-top: 0.35rem;
+    margin-right: 0.2rem;
+}
+.manage_new_add{
+	width: 100%;
+	overflow: hidden;
+	z-index: 90;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.manage_new_add a{
+	display: block;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.3rem;
+	margin: 0 auto;
+	background: #F9B552;
+}

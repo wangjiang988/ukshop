@@ -1,0 +1,63 @@
+@charset "utf-8";
+body{ background:#fff;}
+.register-left-img{ float:left; width:620px; height:584px; padding-right:41px;}
+.register-right{ float:left; width:400px; height:508px; background:url(../img/mall-99.jpg) 0 0 no-repeat; font-family:Microsoft YaHei,宋体;}
+.register-right h3{ float:left; width:400px; height:63px; line-height:63px; text-align:center; color:#fff; font-size:20px;}
+.register-right .box-01{ padding:0 22px; width:356px; float:left;}
+.register-right .box-01 .pt-box{ float:left; width:100%; height:60px;}
+.register-right .box-01 .input-out{ float:left; width:354px; height:38px; border:1px solid #dfdfdf; background:#fff; border-radius: 2px;}
+.register-right .box-01 .input-out .input-01{ float:left; height:38px; width:298px; padding:0 10px; font-family:Microsoft YaHei,宋体; font-size:14px; color:#000; line-height:38px;}
+.register-right .box-01 .input-out .ico-01{ float:left; width:15px; height:15px; background:url(../img/mall-103.gif) 0 0 no-repeat; margin:12px 0 0 5px;}
+.register-right .box-01 .input-out .ico-02{ float:left; width:15px; height:17px; background:url(../img/mall-104.gif) 0 0 no-repeat; margin:12px 0 0 5px;}
+.register-right .box-01 .input-out .ico-03{ float:left; width:15px; height:12px; background:url(../img/mall-105.gif) 0 0 no-repeat; margin:14px 0 0 5px;}
+.register-right .box-01 .active-input{ border:1px solid #efa100;}
+.register-right .box-01 .input-yz-out{ width:108px;}
+.register-right .box-01 .input-yz-out .input-01{ width:88px; padding:0 10px;}
+.register-right .box-01 .error{ line-height:22px; color:#f30; float:left; width:100%;}
+.register-right .box-01 .yzm{ float:left; width:96px; height:50px; margin-left:20px;}
+.register-right .box-01 .yzm img{ float:left; width:96px; height:40px;}
+.register-right .box-01 .change-a{ float:left; line-height:50px; color:#989898; font-size:14px; margin-left:20px;}
+.register-right .box-01 .yzm-a{ float:left; width:146px; height:38px;  border:1px solid #dfdfdf; background:#eee; line-height:38px; text-align:center; font-size:14px; color:#686868; margin-left:20px;}
+.register-right .box-01 .yzm-a:hover{ color:#686868; text-decoration:none;}
+
+
+.register-right .box-01 .change-a:hover{ text-decoration:underline; color:#e43937;}
+.register-right .box-01 .text-box{ float:left; width:356px;}
+.register-right .box-01 .text-box .login-a{ float:left; width:182px; height:40px; line-height:40px; color:#fff; font-size:16px; color:#fff; text-align:center; background:url(../img/mall-107.gif) 0 0 no-repeat; margin-left:46px;}
+.register-right .box-01 .text-box .login-a:hover{ text-decoration:none; color:#fff;}
+.register-right .box-01 .text-box .forget-a{ float:left; line-height:40px; color:#4a8ac7; font-size:14px; margin-left:20px;}
+.register-right .box-01 .text-box .forget-a:hover{text-decoration:underline; color:#e43937;}
+.register-right .box-01 .text-box .ps{ float:left; margin-top:12px; width:150px; padding-left:77px; line-height:28px; color:#999; font-size:14px;}
+.register-right .box-01 .text-box .register-a{line-height:28px; height:28px; width:54px; text-align:center; color:#666; font-size:14px; background:url(../img/mall-108.gif) 0 0 no-repeat; float:left; margin-top:12px;}
+.register-right .box-01 .text-box .register-a:hover{ color:#666; text-decoration:none;}
+.register-right .box-01 .text-box .p-01{ float:left; line-height:28px; color:#999; font-size:14px; padding-left:20px; padding-top:12px;}
+.register-right .box-01 .text-box .p-01 .a-01{ display:inline-block; line-height:28px; height:28px; width:54px; text-align:center; color:#666; font-size:14px; background:url(../img/mall-108.gif) 0 0 no-repeat; }
+.register-right .box-01 .text-box .p-01 .a-01:hover{ color:#666; text-decoration:none;}
+.register-right .box-01 .text-box .p-01 .a-02{ color:#4a8ac7;}
+.register-right .box-01 .text-box .p-01 .a-02:hover{ color:#e43937; text-decoration:underline;}
+.register-right .protocol{ float:left; width:100%; color:#999; font-size:14px; padding-bottom:10px;}
+.register-right .protocol .checkbox-01{ vertical-align:-2px; margin-right:5px;}
+.register-right .protocol a{ color:#c7111b;}
+
+.register-right .quick-box{ float:left; margin:0 22px; width:356px; border-top:1px dashed #dcdcdc; margin-top:30px;}
+.register-right .quick-box p{ float:left; width:100%; text-align:center; color:#999; font-size:14px; line-height:20px; padding:14px 0;}
+.register-right .quick-box .qq{ float:left; padding-left:38px; line-height:28px; color:#f08a44; font-size:14px; background:url(../img/mall-109.gif) 0 0 no-repeat; margin-right:20px; margin-left:77px;}
+.register-right .quick-box .qq:hover{color:#f08a44; text-decoration:none;}
+.register-right .quick-box .sina{ float:left; padding-left:38px; line-height:28px; color:#999; font-size:14px; background:url(../img/mall-110.gif) 0 0 no-repeat;}
+.register-right .quick-box .sina:hover{color:#999; text-decoration:none;}
+
+.register-right .bottom-box{ float:left; margin:0 22px; width:356px; border-top:1px dashed #dcdcdc; margin-top:18px; line-height:28px; padding-top:24px;}
+.register-right .bottom-box .p-01{ float:left; color:#999; font-size:14px;}
+.register-right .bottom-box .p-02{ float:right;color:#999; font-size:14px;}
+.register-right .bottom-box a{line-height:28px; height:28px; width:54px; text-align:center; color:#666; font-size:14px; background:url(../img/mall-108.gif) 0 0 no-repeat; float:left;}
+.register-right .bottom-box .sp-01{ float:left; padding-right:10px;}
+
+
+
+
+.register-footer{ float:left; width:100%; height:100px; background:#f5f5f5; margin-top:95px;}
+.register-footer ul{ float:left; padding-left:409px;}
+.register-footer ul li{ float:left; font-size:12px; background:url(../img/mall-111.gif) right  0 no-repeat; margin-top:50px;}
+.register-footer ul li a{ color:#666; margin:0 10px;}
+.register-footer ul li a:hover{ color:#e43937; text-decoration:underline;}
+

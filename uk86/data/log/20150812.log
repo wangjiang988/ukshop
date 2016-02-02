@@ -1,0 +1,27 @@
+[2015-08-12 13:06:33] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-11','2015-08-13',NULL,'a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439355993')
+[2015-08-12 13:07:30] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-12','2015-08-12',NULL,'a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439356050')
+[2015-08-12 13:09:34] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-12','2015-08-06',NULL,'a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439356174')
+[2015-08-12 13:10:25] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-04','2015-08-20',NULL,'a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439356225')
+[2015-08-12 13:11:55] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-11','2015-08-13','1','a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439356315')
+[2015-08-12 13:18:29] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-11','2015-08-13','1','a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439356709')
+[2015-08-12 13:26:07] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-12','2015-08-14','1','a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439357167')
+[2015-08-12 13:28:19] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'wheel_prize' in 'field list'
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prize,wheel_add_time) VALUES ('2015-08-11','2015-08-13','1','a:10:{i:0;N;i:1;N;i:2;N;i:3;N;i:4;N;i:5;N;i:6;N;i:7;N;i:8;N;i:9;N;}','1439357299')
+[2015-08-12 17:12:15] /uk86/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Unknown column 'id' in 'order clause'
+SELECT wheel_title, wheel_prizes, wheel_start_time, wheel_end_time FROM `ukshop_wheel` WHERE wheel_isuse = 1 ORDER BY id desc LIMIT 1  

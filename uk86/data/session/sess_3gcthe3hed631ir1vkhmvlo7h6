@@ -1,0 +1,1 @@
+appid|s:9:"101250473";appkey|s:32:"247706a3995910f79d927d4488be3e17";callback|s:48:"http://uk86.localhost/shop/api.php?act=toqq&op=g";scope|s:13:"get_user_info";state|s:32:"c395059a2b62244a86f77222ac3df1bf";is_login|s:1:"1";member_id|i:27;member_name|s:5:"xlong";member_email|s:16:"562589521@qq.com";is_buy|i:1;avatar|N;store_id|N;

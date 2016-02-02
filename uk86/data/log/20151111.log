@@ -1,0 +1,33 @@
+[2015-11-11 08:17:58] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = NULL ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 08:17:58] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-11 08:23:03] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 08:23:15] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 08:23:21] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 08:23:26] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 08:23:30] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 08:25:16] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-11 13:33:59] /uk86/shop/index.php ( act=wap_buy&op=buy_step2 ) 
+ERR: Db Error: Column 'reciver_name' cannot be null
+INSERT  INTO `ukshop_order_common` (order_id,store_id,order_message,reciver_info,reciver_name,reciver_city_id,invoice_info) VALUES ('41','1','','a:6:{s:5:\"phone\";s:0:\"\";s:9:\"mob_phone\";N;s:9:\"tel_phone\";N;s:7:\"address\";s:1:\" \";s:4:\"area\";N;s:6:\"street\";N;}',NULL,NULL,'a:0:{}')
+[2015-11-11 13:37:54] /uk86/shop/index.php ( act=wap_buy&op=buy_step2 ) 
+ERR: Db Error: Column 'reciver_name' cannot be null
+INSERT  INTO `ukshop_order_common` (order_id,store_id,order_message,reciver_info,reciver_name,reciver_city_id,invoice_info) VALUES ('42','1','','a:6:{s:5:\"phone\";s:0:\"\";s:9:\"mob_phone\";N;s:9:\"tel_phone\";N;s:7:\"address\";s:1:\" \";s:4:\"area\";N;s:6:\"street\";N;}',NULL,'0','a:0:{}')
+[2015-11-11 16:53:26] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  

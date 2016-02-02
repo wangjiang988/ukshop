@@ -1,0 +1,25 @@
+[2015-11-27 09:38:23] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-27 15:42:10] /uk86/index.php?act=wap_cms&op=share_article ( act=wap_cms&op=share_article ) 
+ERR: Db Error: Unknown column 'trance_title' in 'field list'
+INSERT  INTO `ukshop_sns_tracelog` (trace_originalid,trace_originalmemberid,trace_memberid,trace_membername,trace_memberavatar,trace_title,trace_content,trance_title,trace_state,trace_privacy,trace_commentcount,trace_copycount,trace_from) VALUES ('0','0','2','xiaosong','avatar_2.jpg','11111111','<div class=\"fd-media\">
+			<div class=\"goodsimg\"><a target=\"_blank\" href=\"http://127.0.0.1/uk86/data/upload/cms/no_cover.png\" onload=\"javascript:DrawImage(this,120,120);\"></a></div>
+			<div class=\"goodsinfo\">
+				<dl>
+					<dt><a target=\"_blank\" href=\"http://127.0.0.1/uk86/cms/index.php?act=article&op=article_detail&article_id=1\">岁月静好</a></dt>
+					<dd>\"xiaosong\"在资讯频道分享了文章<a target=\"_blank\" href=\"http://127.0.0.1/uk86/cms/index.php?act=article&op=article_detail&article_id=1\">去看看</a></dd>
+				</dl>
+			</div>
+		</div>','1448610130','0','0','0','0','4')
+[2015-11-27 15:44:17] /uk86/index.php?act=wap_cms&op=share_article ( act=wap_cms&op=share_article ) 
+ERR: Db Error: Unknown column 'trance_title' in 'field list'
+INSERT  INTO `ukshop_sns_tracelog` (trace_originalid,trace_originalmemberid,trace_memberid,trace_membername,trace_memberavatar,trace_title,trace_content,trance_title,trace_state,trace_privacy,trace_commentcount,trace_copycount,trace_from) VALUES ('0','0','2','xiaosong','avatar_2.jpg','111111','<div class=\"fd-media\">
+			<div class=\"goodsimg\"><a target=\"_blank\" href=\"http://127.0.0.1/uk86/data/upload/cms/no_cover.png\" onload=\"javascript:DrawImage(this,120,120);\"></a></div>
+			<div class=\"goodsinfo\">
+				<dl>
+					<dt><a target=\"_blank\" href=\"http://127.0.0.1/uk86/cms/index.php?act=article&op=article_detail&article_id=1\">岁月静好</a></dt>
+					<dd>\"xiaosong\"在资讯频道分享了文章<a target=\"_blank\" href=\"http://127.0.0.1/uk86/cms/index.php?act=article&op=article_detail&article_id=1\">去看看</a></dd>
+				</dl>
+			</div>
+		</div>','1448610257','0','0','0','0','4')

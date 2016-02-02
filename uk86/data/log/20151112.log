@@ -1,0 +1,27 @@
+[2015-11-12 10:19:11] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 10:19:41] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 10:19:44] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 10:19:54] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 10:20:09] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 10:22:41] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 10:30:37] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-12 15:40:56] /uk86/shop/index.php?act=wap_buy_virtual&op=buy_step2 ( act=wap_buy_virtual&op=buy_step2 ) 
+ERR: Db Error: Column 'buyer_phone' cannot be null
+INSERT  INTO `ukshop_vr_order` (order_sn,store_id,store_name,buyer_id,buyer_name,buyer_phone,buyer_msg,add_time,order_state,order_amount,goods_id,goods_name,goods_price,goods_num,goods_image,commis_rate,gc_id,vr_indate,vr_invalid_refund,order_from) VALUES ('650500658056299002','1','ukshop','2','xiaosong',NULL,'','1447314056','10','0.1','340','虚拟兑换商品  虚拟兑换码','0.10','1','1_05004785096371825.png','200','127','1451577599','0','1')
+[2015-11-12 15:42:13] /uk86/shop/index.php?act=wap_buy_virtual&op=buy_step2 ( act=wap_buy_virtual&op=buy_step2 ) 
+ERR: Db Error: Column 'buyer_phone' cannot be null
+INSERT  INTO `ukshop_vr_order` (order_sn,store_id,store_name,buyer_id,buyer_name,buyer_phone,buyer_msg,add_time,order_state,order_amount,goods_id,goods_name,goods_price,goods_num,goods_image,commis_rate,gc_id,vr_indate,vr_invalid_refund,order_from) VALUES ('310500658133538002','1','ukshop','2','xiaosong',NULL,'','1447314133','10','0.1','340','虚拟兑换商品  虚拟兑换码','0.10','1','1_05004785096371825.png','200','127','1451577599','0','1')

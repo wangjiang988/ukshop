@@ -1,0 +1,75 @@
+[2015-08-19 12:45:23] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7%E8%BD%AC%E7%9B%98&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大转盘% ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大转盘% ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:45:32] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7%E8%BD%AC%E7%9B%98&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大转盘% ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大转盘% ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:45:57] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7%E8%BD%AC%E7%9B%98&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大转盘% ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大转盘% ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:48:08] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:48:12] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:48:13] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:48:23] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:48:54] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 0 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:50:56] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大% ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大% ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:51:17] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大% and  ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大% and  ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:51:53] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大% ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大% ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:52:22] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=&searchstate=1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 1 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 1 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:53:27] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=%E5%A4%A7&searchstate=-1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%大% ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE wheel_title like %大% ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:55:06] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=&searchstate=1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 1 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 1 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 12:55:41] /uk86/admin/index.php?act=wheel&op=wheelList&searchtitle=&searchstate=1 ( act=wheel&op=wheellist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and wheel_isuse = 1 ORDER BY sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_wheel` WHERE  and wheel_isuse = 1 ORDER BY sort asc LIMIT 1000  
+[2015-08-19 14:07:12] /uk86/admin/index.php?act=wheel&op=wheel_del ( act=wheel&op=wheel_del ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+DELETE  FROM `ukshop_wheel` WHERE wheel_id in Array
+[2015-08-19 14:07:32] /uk86/admin/index.php?act=wheel&op=wheel_del ( act=wheel&op=wheel_del ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+DELETE  FROM `ukshop_wheel` WHERE wheel_id in Array
+[2015-08-19 14:07:52] /uk86/admin/index.php?act=wheel&op=wheel_del ( act=wheel&op=wheel_del ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+DELETE  FROM `ukshop_wheel` WHERE wheel_id in Array
+[2015-08-19 14:08:03] /uk86/admin/index.php?act=wheel&op=wheel_del ( act=wheel&op=wheel_del ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+DELETE  FROM `ukshop_wheel` WHERE wheel_id in Array
+[2015-08-19 14:08:52] /uk86/admin/index.php?act=wheel&op=wheel_del ( act=wheel&op=wheel_del ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+DELETE  FROM `ukshop_wheel` WHERE wheel_id in (Array)
+[2015-08-19 14:19:30] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `ukshop_wheel` WHERE ( id = '' ) ORDER BY sort asc LIMIT 1000  
+[2015-08-19 14:19:32] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `ukshop_wheel` WHERE ( id = '' ) ORDER BY sort asc LIMIT 1000  
+[2015-08-19 14:20:31] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `ukshop_wheel` WHERE ( id = '' ) ORDER BY sort asc LIMIT 1000  
+[2015-08-19 14:20:42] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `ukshop_wheel` WHERE ( id = '' ) ORDER BY sort asc LIMIT 1000  
+[2015-08-19 14:20:43] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `ukshop_wheel` WHERE ( id = '' ) ORDER BY sort asc LIMIT 1000  

@@ -1,0 +1,30 @@
+[2015-11-30 16:04:29] /uk86/admin/index.php?act=circle_theme&op=theme_class_list ( act=circle_theme&op=theme_class_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+SELECT * FROM `ukshop_circle_thclass_list` ORDER BY class_sort asc LIMIT 30  
+[2015-11-30 16:04:38] /uk86/admin/index.php?act=circle_theme&op=theme_class_add ( act=circle_theme&op=theme_class_add ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+INSERT  INTO `ukshop_circle_thclass_list` (thclass_name,class_sort,thclass_status) VALUES ('80','0','1')
+[2015-11-30 16:04:45] /uk86/admin/index.php?act=circle_theme&op=theme_class_add ( act=circle_theme&op=theme_class_add ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+INSERT  INTO `ukshop_circle_thclass_list` (thclass_name,class_sort,thclass_status) VALUES ('80后','0','1')
+[2015-11-30 16:04:56] /uk86/admin/index.php?act=circle_theme&op=theme_class_add ( act=circle_theme&op=theme_class_add ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+INSERT  INTO `ukshop_circle_thclass_list` (thclass_name,class_sort,thclass_status) VALUES ('80后','0','1')
+[2015-11-30 16:05:13] /uk86/admin/index.php?act=circle_theme&op=theme_class_list ( act=circle_theme&op=theme_class_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+SELECT * FROM `ukshop_circle_thclass_list` ORDER BY class_sort asc LIMIT 30  
+[2015-11-30 16:06:43] /uk86/admin/index.php?act=circle_theme&op=theme_class_add ( act=circle_theme&op=theme_class_add ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+INSERT  INTO `ukshop_circle_thclass_list` (thclass_name,class_sort,thclass_status) VALUES ('80后','100','1')
+[2015-11-30 16:07:10] /uk86/admin/index.php?act=circle_theme&op=theme_class_add ( act=circle_theme&op=theme_class_add ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+INSERT  INTO `ukshop_circle_thclass_list` (thclass_name,class_sort,thclass_status) VALUES ('80后','0','1')
+[2015-11-30 16:09:00] /uk86/admin/index.php?act=circle_theme&op=theme_class_list ( act=circle_theme&op=theme_class_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+SELECT * FROM `ukshop_circle_thclass_list` ORDER BY class_sort asc LIMIT 30  
+[2015-11-30 16:11:02] /uk86/admin/index.php?act=circle_theme&op=theme_class_list ( act=circle_theme&op=theme_class_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+SELECT * FROM `ukshop_circle_thclass_list` ORDER BY class_sort asc LIMIT 30  
+[2015-11-30 16:26:40] /uk86/admin/index.php?act=circle_theme&op=theme_class_list ( act=circle_theme&op=theme_class_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_circle_thclass_list' doesn't exist
+SELECT * FROM `ukshop_circle_thclass_list` ORDER BY class_sort asc LIMIT 30  

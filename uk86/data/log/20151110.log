@@ -1,0 +1,336 @@
+[2015-11-10 08:21:01] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = NULL ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 08:21:01] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-10 08:22:03] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = NULL ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 08:22:03] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-10 08:22:57] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 08:23:05] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 09:00:09] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 09:06:04] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 09:15:23] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 10:21:36] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 10:52:19] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 10:52:24] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:02:35] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:05:39] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:12:22] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:13:48] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:17:08] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:17:41] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:19:02] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:19:24] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:20:18] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = NULL ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:20:18] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-10 11:20:38] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:22:26] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:23:59] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:24:27] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:24:38] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:27:06] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:27:11] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:27:39] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 11:31:11] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:18:46] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:19:04] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:19:16] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:19:45] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:19:51] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:20:08] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:22:04] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:22:19] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:34:03] /uk86/index.php?order_id=37 ( act=wap_goods_assess&op=index ) 
+ERR: Db Error: Unknown column 'evaluation_time' in 'field list'
+UPDATE `ukshop_order` SET evaluation_state='1',evaluation_time='1447130042' WHERE ( order_id = '37' )
+[2015-11-10 12:34:22] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:35:17] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:35:21] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:35:35] /uk86/index.php?order_id=26 ( act=wap_goods_assess&op=index ) 
+ERR: Db Error: Unknown column 'evaluation_time' in 'field list'
+UPDATE `ukshop_order` SET evaluation_state='1',evaluation_time='1447130135' WHERE ( order_id = '26' )
+[2015-11-10 12:36:00] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:43:12] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:43:40] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 12:49:24] /uk86/shop/index.php?act=member_refund&op=index ( act=member_refund&op=index ) 
+ERR: Db Error: Unknown column 'company_name' in 'field list'
+SELECT store_id,store_name,member_id,member_name,seller_name,store_company_name,company_name,store_qq,store_ww,store_phone,store_domain FROM `ukshop_store` WHERE ( store_id IN ('1','1') ) LIMIT 1000  
+[2015-11-10 12:51:27] /uk86/shop/index.php?act=member_refund&op=index ( act=member_refund&op=index ) 
+ERR: Db Error: Unknown column 'company_name' in 'field list'
+SELECT store_id,store_name,member_id,member_name,seller_name,store_company_name,company_name,store_qq,store_ww,store_phone,store_domain FROM `ukshop_store` WHERE ( store_id IN ('1','1') ) LIMIT 1000  
+[2015-11-10 13:13:17] /uk86/shop/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 13:27:00] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 13:28:02] /uk86/shop/index.php?act=wap_member&op=home ( act=wap_member&op=home ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 14:36:43] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:07:39] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:07:54] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:08:24] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:08:28] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.sec_id asc LIMIT 1000  
+[2015-11-10 15:08:32] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:08:35] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:08:40] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 15:08:42] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.sec_id asc LIMIT 1000  
+[2015-11-10 15:13:13] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:13:15] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:30] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.order_id = 'o.order_id' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:31] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.order_id = 'o.order_id' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:31] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.order_id = 'o.order_id' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:31] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.order_id = 'o.order_id' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:42] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:43] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:43] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:17:43] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:21:32] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id asc LIMIT 1000  
+[2015-11-10 15:22:39] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id desc LIMIT 1000  
+[2015-11-10 15:22:39] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id desc LIMIT 1000  
+[2015-11-10 15:23:24] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_ukshop_vr_order_code c` AS `ukshop_vr_order_code c`,`ukshop_ ukshop_vr_order o` AS ` ukshop_vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id desc LIMIT 1000  
+[2015-11-10 15:23:25] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_ukshop_vr_order_code c` AS `ukshop_vr_order_code c`,`ukshop_ ukshop_vr_order o` AS ` ukshop_vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) ORDER BY c.rec_id desc LIMIT 1000  
+[2015-11-10 15:49:26] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 15:49:44] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:00:14] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:00:37] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:00:39] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = 'S' )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = 'S' )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = '0' )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = '0' )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = NULL )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = NULL )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = '?' )
+[2015-11-10 16:00:53] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+UPDATE `ukshop_` SET vr_state='2' WHERE ( rec_id = '?' )
+[2015-11-10 16:01:57] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:02:14] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT c.vr_code, c.vr_state, c.vr_usetime, c.vr_indate, o.goods_id, o.goods_name, o.goods_image FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` LIMIT 30  
+[2015-11-10 16:02:29] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT * FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:02:37] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_vr_order_code c' doesn't exist
+SELECT * FROM `ukshop_vr_order_code c` AS `vr_order_code c`,`ukshop_ vr_order o` AS ` vr_order o` WHERE ( c.buyer_id = '2' ) AND ( c.order_id = 'o.order_id' ) AND ( c.refund_lock = '0' ) LIMIT 1000  
+[2015-11-10 16:08:48] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:11:01] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:11:02] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:11:02] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:11:17] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT * FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:11:36] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` LIMIT 30  
+[2015-11-10 16:11:38] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` LIMIT 30  
+[2015-11-10 16:11:38] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` LIMIT 30  
+[2015-11-10 16:11:38] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` LIMIT 30  
+[2015-11-10 16:12:29] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:12:32] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:12:59] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:13:57] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT goods_id, goods_name, goods_image FROM `ukshop_` WHERE ( buyer_id = '2' ) LIMIT 1000  
+[2015-11-10 16:14:11] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT * FROM `ukshop_` LIMIT 30  
+[2015-11-10 16:14:13] /uk86/index.php?act=wap_member_fcode&op=rec_code ( act=wap_member_fcode&op=rec_code ) 
+ERR: Db Error: Table 'ukshop.ukshop_' doesn't exist
+SELECT * FROM `ukshop_` LIMIT 30  
+[2015-11-10 16:44:16] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 16:53:41] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 16:55:02] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  
+[2015-11-10 16:56:10] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_order` WHERE ( member_id = '2' ) AND ( order_state = '20' ) LIMIT 1  

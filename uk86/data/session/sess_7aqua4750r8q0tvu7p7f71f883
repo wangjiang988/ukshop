@@ -1,0 +1,1 @@
+appid|s:9:"101250473";appkey|s:32:"247706a3995910f79d927d4488be3e17";callback|s:48:"http://127.0.0.1/uk86/shop/api.php?act=toqq&op=g";scope|s:13:"get_user_info";state|s:32:"b162c128b2dfe3f49def69aece2a34e4";is_login|s:1:"1";member_id|s:1:"2";member_name|s:8:"xiaosong";member_email|s:16:"zhuxs@webonn.com";is_buy|s:1:"1";avatar|s:12:"avatar_2.jpg";store_id|N;

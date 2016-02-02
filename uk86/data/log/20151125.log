@@ -1,0 +1,81 @@
+[2015-11-25 10:48:23] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448419703' ) AND ( article_end_time > '1448419703' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:49:10] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448419750' ) AND ( article_end_time > '1448419750' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:49:11] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448419751' ) AND ( article_end_time > '1448419751' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:49:12] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448419752' ) AND ( article_end_time > '1448419752' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:50:29] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:50:30] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:50:31] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:50:31] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:53:48] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420028' ) AND ( article_end_time > '1448420028' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:53:49] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420029' ) AND ( article_end_time > '1448420029' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:53:49] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420029' ) AND ( article_end_time > '1448420029' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:53:49] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420029' ) AND ( article_end_time > '1448420029' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:53:49] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420029' ) AND ( article_end_time > '1448420029' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:54:34] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420074' ) AND ( article_end_time > '1448420074' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:54:40] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420080' ) AND ( article_end_time > '1448420080' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:54:49] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420089' ) AND ( article_end_time > '1448420089' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:55:23] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420123' ) AND ( article_end_time > '1448420123' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:55:26] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420126' ) AND ( article_end_time > '1448420126' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:55:37] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420137' ) AND ( article_end_time > '1448420137' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:56:08] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` ORDER BY article_commend_flag desc article_sort asc 
+[2015-11-25 10:56:32] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT * FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420192' ) AND ( article_end_time > '1448420192' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 10:56:47] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: Unknown column 'article_img' in 'field list'
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) AND ( article_start_time < '1448420207' ) AND ( article_end_time > '1448420207' ) LIMIT 1000  
+[2015-11-25 10:59:03] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: Unknown column 'article_img' in 'field list'
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` 
+[2015-11-25 10:59:04] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: Unknown column 'article_img' in 'field list'
+SELECT article_id, article_title, article_class_id, article_abstract, article_img, article_attachment_path, article_click FROM `ukshop_cms_article` 
+[2015-11-25 11:01:57] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_image, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 11:01:58] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_image, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  
+[2015-11-25 11:01:58] /uk86/index.php?act=wap_cms ( act=wap_cms&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_sort asc LIMIT 1000' at line 1
+SELECT article_id, article_title, article_class_id, article_abstract, article_image, article_attachment_path, article_click FROM `ukshop_cms_article` WHERE ( article_state = '3' ) ORDER BY article_commend_flag desc article_sort asc LIMIT 1000  

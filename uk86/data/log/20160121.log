@@ -1,0 +1,9 @@
+[2016-01-21 20:51:00] /shop/index.php?act=store_brand&op=brand_save&inajax=1 ( act=store_brand&op=brand_save ) 
+ERR: Db Error: Column 'goods_price' cannot be null
+INSERT  INTO `ukshop_pm_order` (order_sn,store_name,buyer_id,buyer_name,buyer_msg,add_time,order_state,order_amount,goods_type,goods_name,goods_price,goods_num) VALUES ('280506724660897001','系统平台','1','ukshop','系统生成订单','1453380660','10','0','7','品牌申请',NULL,'1')
+[2016-01-21 20:51:03] /shop/index.php?act=store_brand&op=pay&brand_id=368 ( act=store_brand&op=pay ) 
+ERR: Db Error: Column 'goods_price' cannot be null
+INSERT  INTO `ukshop_pm_order` (order_sn,store_name,buyer_id,buyer_name,buyer_msg,add_time,order_state,order_amount,goods_type,goods_name,goods_price,goods_num) VALUES ('560506724663056001','系统平台','1','ukshop','系统生成订单','1453380663','10','0','7','品牌申请',NULL,'1')
+[2016-01-21 20:53:45] /admin/index.php?act=brand&op=brand_setPrice ( act=brand&op=brand_setprice ) 
+ERR: Db Error: Duplicate entry 'default_brand_price' for key 'PRIMARY'
+INSERT  INTO `ukshop_setting` (name,value) VALUES ('default_brand_price','1000')

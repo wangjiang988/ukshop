@@ -1,0 +1,30 @@
+[2015-11-16 08:19:56] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-16 08:20:21] /uk86/index.php?act=wap_member_fcode&op=voucher_list ( act=wap_member_fcode&op=voucher_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_boucher' doesn't exist
+SELECT * FROM `ukshop_boucher` WHERE ( voucher_owner_id = '2' ) AND ( voucher_state IN ('1','2','3') ) ORDER BY voucher_active_date desc LIMIT 1000  
+[2015-11-16 08:20:41] /uk86/index.php?act=wap_member_fcode&op=voucher_list ( act=wap_member_fcode&op=voucher_list ) 
+ERR: Db Error: Table 'ukshop.ukshop_boucher' doesn't exist
+SELECT * FROM `ukshop_boucher` WHERE ( voucher_owner_id = '2' ) ORDER BY voucher_active_date desc LIMIT 1000  
+[2015-11-16 10:08:58] /uk86/index.php?act=wap_member_fcode&op=voucher_list ( act=wap_member_fcode&op=voucher_list ) 
+ERR: Db Error: Unknown column 'voucher_t_ptice' in 'field list'
+SELECT voucher_t_id, voucher_t_ptice, voucher_t_customimg FROM `ukshop_voucher_template` LIMIT 30  
+[2015-11-16 17:09:28] /uk86/index.php?act=wap_brand&op=index&keyword=l ( act=wap_brand&op=index ) 
+ERR: Db Error: Unknown column 'L' in 'where clause'
+SELECT * FROM `ukshop_brand` WHERE brand_name like "%l%" or brand_initial =L ORDER BY brand_sort desc, brand_id asc LIMIT 1000  
+[2015-11-16 17:09:47] /uk86/index.php?act=wap_brand&op=index&keyword=L ( act=wap_brand&op=index ) 
+ERR: Db Error: Unknown column 'L' in 'where clause'
+SELECT * FROM `ukshop_brand` WHERE brand_name like "%L%" or brand_initial =L ORDER BY brand_sort desc, brand_id asc LIMIT 1000  
+[2015-11-16 17:09:59] /uk86/index.php?act=wap_brand&op=index&keyword=%E9%98%BF%E8%BF%AA%E8%BE%BE%E6%96%AF ( act=wap_brand&op=index ) 
+ERR: Db Error: Unknown column '阿迪达斯' in 'where clause'
+SELECT * FROM `ukshop_brand` WHERE brand_name like "%阿迪达斯%" or brand_initial =阿迪达斯 ORDER BY brand_sort desc, brand_id asc LIMIT 1000  
+[2015-11-16 17:10:59] /uk86/index.php?act=wap_brand&op=index&keyword=%E9%98%BF%E8%BF%AA%E8%BE%BE%E6%96%AF ( act=wap_brand&op=index ) 
+ERR: Db Error: Unknown column '阿迪达斯' in 'where clause'
+SELECT * FROM `ukshop_brand` WHERE brand_name like "%阿迪达斯%" or brand_initial =阿迪达斯 ORDER BY brand_sort desc, brand_id asc LIMIT 1000  
+[2015-11-16 17:11:41] /uk86/index.php?act=wap_brand&op=index&keyword=L ( act=wap_brand&op=index ) 
+ERR: Db Error: Unknown column 'L' in 'where clause'
+SELECT * FROM `ukshop_brand` WHERE brand_name like "%L%" or brand_initial =L ORDER BY brand_sort desc, brand_id asc LIMIT 1000  
+[2015-11-16 17:13:52] /uk86/index.php?act=wap_brand&op=index&keyword=L ( act=wap_brand&op=index ) 
+ERR: Db Error: Unknown column 'L' in 'where clause'
+SELECT * FROM `ukshop_brand` WHERE brand_name like "%L%" or brand_initial =L ORDER BY brand_sort desc, brand_id asc LIMIT 1000  

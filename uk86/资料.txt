@@ -1,0 +1,57 @@
+后台admin密码：111111
+
+ecshop:111111
+
+svn：
+
+
+订单支付链接
+http://uk.com/shop/index.php?act=store_groupbuy&op=groupbuy_quota_add_pay&order_id=2
+
+测试付款TODO代码后期要去掉。
+测试阿里连接
+http://uk.com/shop/index.php?act=store_groupbuy&op=groupbuy_quota_add_save&order_sn=940505844337816001&order_id=5&order_amount=0.01
+https://unitradeprod.alipay.com/acq/cashierReturn.htm?sign=K1iSL1GNZvBEARaILH%252FQmxLVKciWNZW23JUw%252BzywOxUen3qcAcDfmTeG%252FkcCyhkEQ2Ix6w%253D%253D&outTradeNo=940505844337816001&pid=2088801167974313&type=1
+
+https://unitradeprod.alipay.com/acq/cashierReturn.htm?sign=K1iSL1GNZvBEARaILH%252FQmx%252BR7KpkAJ9%252FS8o32z27ihPwZBvs%252B7fgGDlSZuXRTc0yaueyTQ%253D%253D&outTradeNo=400505862442831001&pid=2088801167974313&type=1
+http://uk.com/shop/index.php?act=&op=quota_add_save&order_sn=350505866817266001&order_id=24&order_amount=0.01
+测试腾讯链接
+https://www.tenpay.com/cgi-bin/v1.0/pay_gate.cgi?
+attach=promotion_vr_order&
+bank_type=0&
+bargainor_id=&
+cmdno=1&
+cs=UTF-8&
+date=20160112&
+desc=%E4%BF%83%E9%94%80%E8%99%9A%E6%8B%9F%E8%AE%A2%E5%8D%95_670505935079399001&
+fee_type=1&
+return_url=http%3A%2F%2Fuk.com%2Fshop%2Fapi%2Fpayment%2Ftenpay%2Freturn_url.php&
+sign=f87e628de6320190f2348f5c8e9ff9da&
+sp_billno=670505935079399001&
+spbill_create_ip=127.0.0.1&
+total_fee=1&
+transaction_id=201601121731244422
+
+
+修改sql：
+2016-1-11
+ALTER TABLE `ukshop_pm_order`
+ADD COLUMN `goods_type`  int(4) NOT NULL DEFAULT 1 COMMENT '1抢购2.限时，3满送，4优惠套餐，5推荐站位，6卡卷包' AFTER `delete_state`;
+
+2016-1-12
+admin
+交易-商家虚拟订单
+pmvrControl.php
+
+2016-1-14  品牌支付流程已经跑通
+pm订单类型
+$type_arr = array(
+			'1' => '抢购',
+			'2' => '限时折扣',
+			'3' => '满即送',
+			'4' => '优惠套装',
+			'5' => '推荐展位',
+			'6' => '卡券包',
+			'7' => '品牌申请'
+);
+

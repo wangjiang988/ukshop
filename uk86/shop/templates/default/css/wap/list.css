@@ -1,0 +1,31 @@
+.rebate{height:0.33rem; width:1rem; background:#fb6467; display:block; color:#FFF !important; text-align:center; border-radius:0.05rem; margin-right:0.2rem;}
+.buyer{ width:1.7rem; display:block; text-align:right;}
+.top_c_three{font-size:0.3rem !important; width: 1.3rem !important; cursor:pointer;}
+.red_border{width:94%; height:1.6rem; border:0.02rem solid #FFE8D8; display:block; margin: 0.17rem auto 0;}
+.red_border dl{float:left;}
+.red_border dl img{ width:1.6rem; height:1.6rem;}
+.red_border dl dt{ margin-left:0.3rem; width:2.4rem; line-height:0.4rem; color:#000; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.red_border dl dt.goods_name{color:#000; font-size:0.28rem;}
+.red_border dl dt.goods_name a{color:#000; font-size:0.28rem;}
+.red_border dl dt.can_use{color:#fa6d70; font-size:0.21rem;}
+.red_border dl dt.need_u{color:#fa6d70; font-size:0.28rem;}
+.red_border dl dt.last_time{color:#ccc; font-size:0.21rem;}
+.red_border dl dd{ width:1.5rem; height:0.8rem; margin-left:0.2rem; color:#fa6d70; font-size:0.5rem; line-height:0.8rem;}
+.red_border dl dd a{ display:block; width: 1.2rem; line-height:0.5rem; background:#fa6d70; color:#FFF; font-size:0.25rem; position:relative; top:0.15rem; text-align:center;}
+.selected_header{ width:100%; max-width: 640px; margin:0 auto; position:relative;}
+.selected_none{ line-height:0rem;}
+/*.selected { width:2rem; height:0rem; background:#FFF; position:absolute; top:-0.2rem; left:2.2rem; z-index:5555; border:0.02rem solid #EF5557;}*/
+/*.selected .selected_font{ font-size:0.3rem; color:#999999; line-height:0.5rem; text-indent:0.2rem;}*/
+@keyframes myselect{from {line-height:0rem;} to{line-height:0.5rem;}}
+.selected { animation:myselect 0.5s; width:2rem; background:#FFF; position:absolute; top:-0.2rem; left:2.2rem; z-index:5555; border:0.02rem solid #EF5557; !important;}
+.selected .selected_font{ animation:myselect 0.5s; font-size:0.3rem; color:#999999; line-height:0.5rem; text-indent:0.2rem;}
+.clearfixd{ position:relative;}
+.clearfixd .knock_now{ position:absolute; left:4.7rem; top:1.1rem; display:block; width:1.5rem; height:0.67rem; line-height:0.67rem; text-align:center; background:#ff9934; border-radius:0.1rem; font-size:0.3rem;}
+.width-50{ width:2.5rem; text-align:left !important;}
+.width-50 label{  width:2.5rem;}
+.width-50 .rebate{ margin-right:0px;}
+
+
+
+
+

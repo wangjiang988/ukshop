@@ -1,0 +1,39 @@
+[2015-11-18 08:18:30] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-18 13:04:30] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=ukshop ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'ukshop' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = ukshop and member_id != 2 LIMIT 1  
+[2015-11-18 13:04:44] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=zhuxuesong ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'zhuxuesong' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = zhuxuesong and member_id != 2 LIMIT 1  
+[2015-11-18 13:05:02] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=zhuxuesong ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'zhuxuesong' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = zhuxuesong and member_id != 2 LIMIT 1  
+[2015-11-18 13:06:24] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=zhuxuesong ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'zhuxuesong' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = zhuxuesong and member_id != 2 LIMIT 1  
+[2015-11-18 13:06:34] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=xiaosong ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'xiaosong' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = xiaosong and member_id != 2 LIMIT 1  
+[2015-11-18 13:06:43] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=ukshop ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'ukshop' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = ukshop and member_id != 2 LIMIT 1  
+[2015-11-18 13:06:54] /uk86/index.php?act=wap_member_setting&op=changeMemberName&member_name=xiaosong ( act=wap_member_setting&op=changemembername ) 
+ERR: Db Error: Unknown column 'xiaosong' in 'where clause'
+SELECT member_id FROM `ukshop_member` WHERE member_name = xiaosong and member_id != 2 LIMIT 1  
+[2015-11-18 13:24:27] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-18 13:24:27] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-18 13:25:02] /uk86/index.php?act=wap_member ( act=wap_member&op=index ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and refund_state in (1,2) LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_refund_return` WHERE buyer_id =  and refund_state in (1,2) LIMIT 1  
+[2015-11-18 15:14:32] /uk86/index.php?act=wap_member_setting&op=changeMemberTrueName&true_name=%E6%AD%A6%E5%99%A8%E5%BC%80 ( act=wap_member_setting&op=changemembertruename ) 
+ERR: Db Error: Unknown column 'member_turename' in 'field list'
+UPDATE `ukshop_member` SET member_turename='武器开' WHERE ( member_id = '2' )
+[2015-11-18 15:15:45] /uk86/index.php?act=wap_member_setting&op=changeMemberTrueName&true_name=%E6%AD%A6%E5%99%A8%E5%BC%80 ( act=wap_member_setting&op=changemembertruename ) 
+ERR: Db Error: Unknown column 'member_turename' in 'field list'
+UPDATE `ukshop_member` SET member_turename='武器开' WHERE ( member_id = '2' )

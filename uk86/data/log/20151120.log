@@ -1,0 +1,6 @@
+[2015-11-20 09:33:15] /uk86/admin/index.php?act=groupbuy&op=groupbuy_review_pass ( act=groupbuy&op=groupbuy_review_pass ) 
+ERR: Db Error: Unknown column 'strace' in 'field list'
+UPDATE `ukshop_store_sns_tracelog` SET strace='{\"group_id\":5,\"group_name\":null,\"goods_id\":\"239\",\"goods_price\":\"179.00\",\"groupbuy_price\":1,\"group_pic\":\"1_05008193178012260.jpg\",\"rebate\":\"0.06\",\"start_time\":1448944080,\"end_time\":1451404800,\"state\":10}' WHERE ( strace_id = '1' )
+[2015-11-20 09:39:17] /uk86/admin/index.php?act=groupbuy&op=groupbuy_review_pass ( act=groupbuy&op=groupbuy_review_pass ) 
+ERR: Db Error: Unknown column 'strace' in 'field list'
+UPDATE `ukshop_store_sns_tracelog` SET strace='{\"group_id\":5,\"group_name\":null,\"goods_id\":\"239\",\"goods_price\":\"179.00\",\"groupbuy_price\":1,\"group_pic\":\"1_05008193178012260.jpg\",\"rebate\":\"0.06\",\"start_time\":1448944080,\"end_time\":1451404800,\"state\":20}' WHERE ( strace_id = '1' )

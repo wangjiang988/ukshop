@@ -1,0 +1,150 @@
+[2015-08-14 08:20:19] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:26:04] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:27:49] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:28:00] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:30:47] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:31:01] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:31:35] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:32:04] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:32:48] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:33:02] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:33:56] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:35:11] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:35:20] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:35:23] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:39:17] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:40:00] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 08:40:40] /uk86/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT wheel_prizes FROM `ukshop_wheel` WHERE wheel_id =  LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '幸运奖一' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 幸运奖一 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '50元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 二等奖 50元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '幸运奖二' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 幸运奖二 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '20元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 三等奖 20元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '幸运奖三' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 幸运奖三 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 四等奖 10元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:36:27] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '闪币' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 闪币 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:04] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:04] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '幸运奖一' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 幸运奖一 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:14] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:24] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:24] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '幸运奖一' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 幸运奖一 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:34] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:40:34] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column '幸运奖一' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 幸运奖一 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:41:48] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:41:58] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:42:09] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:43:55] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:44:05] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:44:33] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:46:58] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:47:06] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:47:18] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:49:13] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 10:58:40] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 11:00:50] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 11:02:41] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 11:05:00] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 11:05:28] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 and wheel_id = 1 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE prize_name = 一等奖 100元 and wheel_id = 1 LIMIT 1  
+[2015-08-14 11:20:45] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '100元 LIMIT 1' at line 1
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE wheel_id = 1 and prize_name = 一等奖 100元 LIMIT 1  
+[2015-08-14 12:22:18] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column 'prizfe_name' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE ( wheel_id = '1' ) AND ( prizfe_name = '一等奖 100元' ) LIMIT 1  
+[2015-08-14 12:22:18] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column 'prizfe_name' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `ukshop_wheel_lottery` WHERE ( wheel_id = '1' ) AND ( prizfe_name = '幸运奖一' ) LIMIT 1  

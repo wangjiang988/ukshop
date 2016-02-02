@@ -1,0 +1,15 @@
+[2015-08-24 08:42:40] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Table 'ukshop.ukshop_wheel' doesn't exist
+SELECT * FROM `ukshop_wheel` ORDER BY sort asc LIMIT 30  
+[2015-08-24 08:42:49] /uk86/admin/index.php?act=wheel&op=wheelList ( act=wheel&op=wheellist ) 
+ERR: Db Error: Table 'ukshop.ukshop_wheel' doesn't exist
+SELECT * FROM `ukshop_wheel` ORDER BY sort asc LIMIT 30  
+[2015-08-24 08:43:33] /uk86/admin/index.php?act=wheel&op=index ( act=wheel&op=index ) 
+ERR: Db Error: Table 'ukshop.ukshop_wheel' doesn't exist
+INSERT  INTO `ukshop_wheel` (wheel_start_time,wheel_end_time,wheel_isuse,wheel_prizes,wheel_title,wheel_add_time) VALUES ('1440374400','1440752400','1','a:5:{i:0;a:4:{s:4:\"name\";s:0:\"\";s:6:\"chance\";d:0;s:3:\"num\";s:1:\"0\";s:4:\"give\";i:0;}i:1;a:4:{s:4:\"name\";s:0:\"\";s:6:\"chance\";d:0;s:3:\"num\";s:1:\"0\";s:4:\"give\";i:0;}i:2;a:4:{s:4:\"name\";s:0:\"\";s:6:\"chance\";d:0;s:3:\"num\";s:1:\"0\";s:4:\"give\";i:0;}i:3;a:4:{s:4:\"name\";s:0:\"\";s:6:\"chance\";d:0;s:3:\"num\";s:1:\"0\";s:4:\"give\";i:0;}i:4;a:4:{s:4:\"name\";s:0:\"\";s:6:\"chance\";d:0;s:3:\"num\";s:1:\"0\";s:4:\"give\";i:0;}}','','1440377013')
+[2015-08-24 13:41:38] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column 'lottery_type' in 'field list'
+INSERT  INTO `ukshop_wheel_lottery` (member_name,wheel_id,lottery_time,prize_name,lottery_type) VALUES ('xiaosong','2','1440394898','二等奖 200元','1')
+[2015-08-24 13:42:31] /uk86/shop/index.php?act=wheel&op=random ( act=wheel&op=random ) 
+ERR: Db Error: Unknown column 'lottery_type' in 'field list'
+INSERT  INTO `ukshop_wheel_lottery` (member_name,wheel_id,lottery_time,prize_name,lottery_type) VALUES ('xiaosong','2','1440394951','三等奖 100元','1')

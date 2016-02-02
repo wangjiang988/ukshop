@@ -1,0 +1,513 @@
+<?php defined('InUk86') or exit('Access Invalid!');?>
+<script>
+var PURL = '<?php echo $output['purl'];?>';
+(function($) {
+    $.fn.nc_region_store = function(options) {
+        var $region = $(this);
+        var settings = $.extend({}, {area_id: 0, region_span_class: "_region_value"}, options);
+
+        return this.each(function() {
+            var $inputArea = $(this);
+            if($inputArea.val() === '') {
+                initArea($inputArea);
+            } else {
+                var $region_span = $('<span class="' + settings.region_span_class + '">' + $inputArea.val() + '</span>');
+                var $region_btn = $('<input type="button" value="编辑" />');
+                $inputArea.after($region_span);
+                $region_span.after($region_btn);
+                $region_btn.on("click", function() {
+                    $region_span.hide();
+                    $region_btn.hide();
+                    initArea($inputArea);
+                });
+            }
+        });
+
+        function initArea($inputArea) {
+            settings.$area = $('<select></select>');
+            $inputArea.after(settings.$area);
+            loadAreaArray(function() {
+                loadArea(settings.$area, settings.area_id);
+            });
+        }
+
+        function loadArea($area, area_id){
+            if($area && nc_a[area_id].length > 0){
+                var areas = [];
+                areas = nc_a[area_id];
+                $area.append("<option>-请选择-</option>");
+                for (i = 0; i <areas.length; i++){
+                    $area.append("<option value='" + areas[i][0] + "'>" + areas[i][1] + "</option>");
+                }
+            }
+
+            $area.on('change', function() {
+                $(this).nextAll("select").remove();
+
+                var region_value = '';
+                $region.nextAll("select").each(function() {
+                    region_value += $(this).find("option:selected").text() + ' ';
+                });
+                $region.val(region_value);
+
+                var area_id = $(this).val();
+                if(area_id > 0) {
+                    if(nc_a[area_id] && nc_a[area_id].length > 0) {
+                        var $newArea = $('<select></select>');
+                        $(this).parent().parent().css('width',$(this).parent().parent().width()+76);
+                        $(this).after($newArea);
+                        loadArea($newArea, area_id);
+                    }
+                }
+            });
+        }
+
+        function loadAreaArray(callback) {
+            if(typeof nc_a === 'undefined') {
+                //取JS目录的地址
+                var area_scripts_src = '';
+                area_scripts_src = $("script[src*='jquery.js']").attr("src");
+                area_scripts_src = area_scripts_src.replace('jquery.js', 'area_array.js');
+                $.ajax({
+                    url: area_scripts_src,
+                    async: false,
+                    dataType: "script"
+                }).done(function(){
+                    callback();
+                });
+            } else {
+                callback();
+            }
+        }
+    };
+})(jQuery);
+ $(document).ready(function(){
+     $('#area_info').nc_region_store();
+ });
+</script>
+<link href="<?php echo SHOP_TEMPLATES_URL;?>/css/cp_style.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="<?php echo RESOURCE_SITE_URL;?>/js/css3-mediaqueries.js"></script>
+<script src="<?php echo RESOURCE_SITE_URL;?>/js/html5_tag.js"></script>
+<![endif]-->
+    <!--[if lte IE 6]><SCRIPT src="<?php echo RESOURCE_SITE_URL;?>/js/iepng.js" type="text/javascript"></SCRIPT>
+<script> 
+EvPNG.fix('div, ul, img, li, input,a,span,nav,article'); 
+</script><![endif]-->
+<script type="text/javascript" src="<?php echo SHOP_RESOURCE_SITE_URL.'/js/Jquery.Query.js';?>" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo RESOURCE_SITE_URL;?>/js/waypoints.js"></script>  
+
+<script type="text/javascript">
+//<!CDATA[
+/* 替换参数 */
+function ss_replaceParam(key, value)
+{
+    location.assign($.query.set('key', key).set('order', value));
+}
+
+/* 替换参数 */
+function ss_dropParam(key1, key2)
+{
+    location.assign($.query.REMOVE(key1).REMOVE(key2));
+}
+
+/* 替换参数 */
+function ss_dropParam2(key1)
+{
+    location.assign($.query.REMOVE(key1));
+}
+
+/* 替换参数 */
+function ss_replaceParam2(key, value)
+{
+    location.assign($.query.set(key, value, value));
+}
+
+$(function (){
+    var order = '<?php echo $_GET['order'];?>';
+    var arrow = '';
+    var class_val = 'sort_desc';
+
+    switch (order){
+        case 'store_credit desc' : order = 'store_credit asc';  class_val = 'sort_desc'; break;
+        case 'store_credit asc'  : order = 'store_credit desc'; class_val = 'sort_asc' ; break;
+        default : order = 'store_credit asc';
+    }
+    $('#credit_grade').addClass(class_val);
+    $('#credit_grade').click(function(){query('order', order);return false;});
+}
+);
+
+function query(name, value){
+    $("input[name='"+name+"']").val(value);
+    $('#searchStore').submit();
+}
+
+//]]>
+</script>
+
+<!--内容展示-->
+<div class="mian_box">
+    <!--顶部菜单-->
+    <div class="cp_list_t01">
+        <!-- <div class="cp_top_tit"> <i class="cplist_i01"></i> 首页 > 店铺</div> -->
+        <div class="cp_top_box">
+            <?php if(!empty($output['class_list']) && is_array($output['class_list'])){?>
+            <div class="cpt_left">
+                <h2>店铺类目</h2></div>
+            <div class="cpt_right clearfix">
+                <a class="all_xz">全部</a>
+                    <?php foreach($output['class_list'] as $k=>$v){?>
+                      <?php if ($_GET['cate_id'] == $v['sc_parent_id']){?>
+                      <a href="<?php echo uk86_urlShop('store_list','index',array('cate_id'=>$k));?>"><?php echo $v['sc_name'];?></a>
+                      <?php }elseif (!isset($v['child']) && $output['class_list'][$_GET['cate_id']]['sc_parent_id'] == $v['sc_parent_id']){?>
+                      <a href="<?php echo uk86_urlShop('store_list','index',array('cate_id'=>$k));?>"><?php echo $v['sc_name'];?></a>
+                      <?php }?>
+                    <?php }?>
+                <!-- <span><i class="cplist_i03"></i>收起</span> -->
+            </div>
+            <?php }?>
+        </div>
+    </div>
+    <!--顶部菜单结束-->
+
+    <!--选择部分-->
+    <div class="cp_list_t02 clearfix">
+       <form id="store_list" method="GET" action="index.php">
+         <input type="hidden" name="order" value="<?php echo $_GET['order'];?>"/>
+         <input type="hidden" name="act" value="store_list"/>
+         <input type="hidden" name="cate_id" value="<?php echo $_GET['cate_id'];?>"/>
+        <div class="cp_tit_01">
+            <ul class="clearfix">
+                <li><a href="javascript:void(0)" class="nobg" onclick="javascript:ss_dropParam('key','order');"><span class="mr_red">默认</span></a></li>
+                <li><a href="javascript:void(0)" <?php if($_get['key'] == 'store_sales'){?>class="<?php echo $_GET['order'];?>"<?php }?> onclick="javascript:ss_replaceParam('store_sales','<?php echo ($_GET['order'] == 'desc' && $_GET['key'] == 'store_sales')?'asc':'desc' ?>');"><span>销量</span><i class="cp_ti01"></i></a></li>
+                <li><a href="javascript:void(0)" <?php if($_get['key'] == 'store_credit'){?>class="<?php echo $_GET['order'];?>"<?php }?> onclick="javascript:ss_replaceParam('store_credit','<?php echo ($_GET['order'] == 'desc' && $_GET['key'] == 'store_credit')?'asc':'desc' ?>');"><span>信用</span><i class="cp_ti02"></i></a></li>
+                <!-- 默认 -->
+                
+            </ul>
+        </div>
+        <div class="cp_tit_02">
+            <span> <input class="ui_input" type="text" name="keyword" value="<?php echo $_GET['keyword'];?>" placeholder="" /></span>
+            <label>店铺名称：</label>
+        </div>
+        <div class="cp_tit_03">
+            <label>店铺所在地：</label>
+            <div class="selectbox">
+              <input id="area_info" name="area_info" type="hidden" value=""/>
+            </div>
+        </div>
+        <div class="cp_tit_04"><a><input type="submit" value="搜索"></a></div>
+       </form>
+    </div>
+    <!--选择部分结束-->
+
+    <!--店铺部分-->
+    <div class="cp_list_main">
+       <?php if(!empty($output['store_list']) && is_array($output['store_list'])){?>
+       <?php foreach($output['store_list'] as $skey => $store){?>
+        <div class="cp_list_box">
+            <div class="cp_list_bl">
+               <div class="dz_tx">
+                    <a href="<?php echo uk86_urlShop('show_store','', array('store_id'=>$store['store_id']),$store['store_domain']);?>" title="" target="_blank"><span class="size72"><img src="<?php echo uk86_getStoreLogo($store['store_avatar']);?>"  alt="<?php echo $store['store_name'];?>" title="<?php echo $store['store_name'];?>" class="size72" /></span></a>
+                </div>
+                <ul>
+                    <h2><a href="<?php echo uk86_urlShop('show_store','', array('store_id'=>$store['store_id']),$store['store_domain']);?>" target="_blank"><?php echo $store['store_name'];?></a></h2>
+                    <li>
+                        店主：<?php echo $store['member_name'];?>
+                        <a href="javascript:collect_store('<?php echo $store['store_id'];?>','count','store_collect')" >收藏店铺</a>
+                    </li>
+                </ul>
+                <dl>
+                    <dt>
+                     <?php if (empty($store['store_credit_average'])){ echo $lang['nc_common_credit_null']; }else {?>
+                      <?php echo $lang['store_class_index_credit_value'].$lang['nc_colon'];?>
+                      <span class="seller-heart level-<?php echo $store['store_credit_average']; ?>"></span>
+                      <?php }?>
+                     <br/><?php if (empty($store['store_credit_percent'])){?>
+                            <?php echo $lang['nc_common_rate_null'];?>
+                        <?php }else{?>  
+                            <?php echo $lang['store_class_index_praise_rate'].$lang['nc_colon'].$store['store_credit_percent'];?>%
+                        <?php }?>
+                     <br/><?php echo ($tmp = $store['goods_count']) ? $lang['store_class_index_goods_amount'].$tmp.$lang['piece'] : $lang['nc_common_goods_null'];?> / <?php echo ($tmp = $store['num_sales_jq']) ? $lang['store_class_index_deal'].$tmp.$lang['store_class_index_jian'] : $lang['nc_common_sell_null'];?>    
+                     </dt>
+                     <dd><a class="cp_pj"><span>店铺动态评分</span>
+                           <div class="cp_xx">
+                             <?php  foreach ($store['store_credit'] as $key=>$value) {?>
+                               <p><?php echo $value['text'].$lang['nc_colon'];?>
+                                <?php for($i=0;$i<$value['credit'];$i++){ ?>
+                                    <i></i>
+                                <?php }?>
+                                &nbsp;<?php echo $value['credit'];?><?php echo $lang['store_class_index_grade'];?></p>
+                             <?php } ?>
+                           </div>
+                    </a></dd>
+                </dl>
+            </div>
+
+            <div class="cp_list_br clearfix">
+                <div class="scrolllist">
+                    <a class="abtn aleft" href="#left" title="左移"></a>
+                    <div class="imglist_w">
+                        <ul class="imglist">
+                          <?php foreach($store['search_list_goods'] as $k=>$v){?>
+                              <li>
+                                <a target="_blank" href="index.php?act=goods&goods_id=<?php echo $v['goods_id'];?>"><img width="163" height="163" src="<?php echo uk86_thumb($v,'small');?>" /></a>
+                                <p><span>最近成交<?php echo $v['goods_salenum'];?>笔</span><?php echo $v['goods_price'];?></p>
+                            </li>
+                            
+                           <?php }?>
+                        </ul>
+                        <!--imglist end-->
+                    </div>
+                    <a class="abtn aright" href="#right" title="右移"></a>
+                </div>
+                <!--scrolllist end-->
+
+            </div>
+
+        </div>
+       <?php }?>
+       <?php }?>
+
+    <!--店铺部分结束-->
+   <!--  <div class="cp_list_bot">
+        <div class="cp_page"><a>上一页</a><a class="xz_y">1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>下一页</a> <span>到第<input class="" type="text" name="" value="" placeholder="" />页</span> <a class="xz_qd">确定</a></div>
+    </div> -->
+    <div class="pagination"> <?php echo $output['show_page'];?> </div>
+</div>
+<!--内容展示结束-->
+
+<!--底部
+<div class="botall"> <img src="<?php echo SHOP_TEMPLATES_URL;?>/images/bot_b.jpg" /> </div>
+-->
+
+<!-- <div style="z-index:1; background:#fff;">
+    底部帮助中心 Start
+    <div class="lmf_all_foot">
+        <div class="lmf_all_foot_con">
+            <span id="HelpListButtom2">
+<div class="floor_load">
+<div id="help">
+<ul class="jd_menu clearfix">
+    
+            <li class="mainmenu1">
+                <dl>
+                    <dt>
+                        <div class="gtotop_title">特色服务</div>
+                        
+                    </dt>
+                    
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/3949fcbf-1acb-4a4d-a534-028009197354.html" target="_blank">礼物赠送</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/6747acec-16aa-404c-b50a-1c71c76838c7.html" target="_blank">延保服务</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/10d64e84-4be2-4fb0-b9d8-73fb53201d4d.html" target="_blank">价格保护</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/ba54e47c-9931-4232-9acc-a3c4f7e1fd8a.html" target="_blank">商品拍卖</a>
+                            </dd>
+                        
+                </dl>
+            </li>
+        
+            <li class="mainmenu2">
+                <dl>
+                    <dt>
+                        <div class="gtotop_title">售后服务</div>
+                        
+                    </dt>
+                    
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/30d5bd2c-6cce-4590-a480-d942246ee554.html" target="_blank">延迟发货</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/8b69efb9-4e0f-4787-93c4-01fc26951c3f.html" target="_blank">上门维修</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/36655a65-3db0-4f04-a903-e37fceccb7a3.html" target="_blank">退货说明</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/f579713d-3a8e-4511-8133-9eba7502e252.html" target="_blank">保修换货</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/8301c423-69f6-4804-89a0-68d1e8dc5a4b.html" target="_blank">联系客服</a>
+                            </dd>
+                        
+                </dl>
+            </li>
+        
+            <li class="mainmenu3">
+                <dl>
+                    <dt>
+                        <div class="gtotop_title">支付方式</div>
+                        
+                    </dt>
+                    
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/8e798030-5e03-4108-81d8-2ddb8ee79433.html" target="_blank">网银支付</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/c80ce511-6ccd-4010-9574-17d3c0bc477e.html" target="_blank">银行转账</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/35cf16e8-b55a-4e02-b929-6214a892cf8e.html" target="_blank">公司转账</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/d6e0bc68-5bb2-4c70-954d-eeb6a9c90dd0.html" target="_blank">邮局汇款</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/5935c140-484d-4c32-b2c8-f1796929ca22.html" target="_blank">货到付款</a>
+                            </dd>
+                        
+                </dl>
+            </li>
+        
+            <li class="mainmenu4">
+                <dl>
+                    <dt>
+                        <div class="gtotop_title">配送方式</div>
+                        
+                    </dt>
+                    
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/4f65dec6-e9ab-447e-af28-54107b5fa046.html" target="_blank">申通快递</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/4b293e5d-3426-40d0-98ad-2a25067d4909.html" target="_blank">中铁快运</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/78dc26bb-4d89-428e-ac00-7e076d41d80d.html" target="_blank">特快专递(EMS)</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/33962a74-feeb-4621-a3c5-428da05be881.html" target="_blank">邮局普包</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/2ee6a1cb-0e24-47c2-b2fb-42eec42bc7a5.html" target="_blank">快递运输</a>
+                            </dd>
+                        
+                </dl>
+            </li>
+        
+            <li class="mainmenu5">
+                <dl>
+                    <dt>
+                        <div class="gtotop_title">购物指南</div>
+                        
+                    </dt>
+                    
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/627c500b-378d-42c7-b7a1-e8779db3bf8d.html" target="_blank">系统指引</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/75b176f9-edd8-4f7d-b0e6-45fa17ee7cae.html" target="_blank">积分方案</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/dc52ed6b-b9df-4ce2-afeb-40b8977fbe68.html" target="_blank">联系客服</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/55f12deb-fdab-4909-8d4a-e7d126a24c64.html" target="_blank">交易条款</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/7e649e0a-88b9-43e0-bb29-551a3fef3c37.html" target="_blank">购物流程</a>
+                            </dd>
+                        
+                </dl>
+            </li>
+        
+            <li class="mainmenu6">
+                <dl>
+                    <dt>
+                        <div class="gtotop_title">关于我们</div>
+                        
+                    </dt>
+                    
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/326267b3-354f-47c7-b3fe-196498cadeab.html" target="_blank">如何申请开店</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/9c7290cc-ebe0-477b-88e1-32bb76a75228.html" target="_blank">如何管理店铺</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/f41a2101-a258-4729-9123-654ec3bfaddb.html" target="_blank">查看售出商品</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/4062943f-b9e7-4e9b-8cc6-b6000e86100f.html" target="_blank">如何发货</a>
+                            </dd>
+                        
+                            <dd>
+                                <a href="http://www.uk86.cn/HelpList/6f94039b-62c2-4c6d-8391-909d06e0f88d.html" target="_blank">法律声明</a>
+                            </dd>
+                        
+                </dl>
+            </li>
+        
+</ul>
+</div>
+</div>
+</span>
+        </div>
+    </div>
+    //底部帮助中心 End
+
+    <div id="footer">
+        <div class="copyright">
+            <span id="FootControl1_DomainCopyright">
+<span id="FootControl1_DomainCopyright_ctl00_labelButtomInfo">
+<p style="text-align:center;font-style:normal;text-indent:0px;font-family:Arial, Verdana;color:#999999;font-size:12px;font-weight:normal;"> 
+<a href="http://www.u-com.cn/" target="_blank">优康集团</a>|<a href="http://www.u-com.cn/xwyd.asp" target="_blank">人力资源</a>|<a href="http://tx.u-com.cn/" target="_blank">优康通信</a>|<span class="Apple-converted-space"></span><a href="http://www.u-com.cn/lxwm.asp"
+            target="_blank">联系我们</a>|<a href="mailto:ucom@u-com.cn" target="_blank">投诉建议</a>|<a href="http://www.ustp.cn/" target="_blank">优康科技园</a>
+            </p>
+            <p style="text-align:center;font-style:normal;text-indent:0px;font-family:Arial, Verdana;color:#999999;font-size:12px;font-weight:normal;"> 地址：苏州市高新区塔园路136号优康科技园3层&nbsp;
+            </p>
+            <p style="text-align:center;font-style:normal;text-indent:0px;font-family:Arial, Verdana;color:#999999;font-size:12px;font-weight:normal;"> 推荐使用IE8.0浏览器(兼容所有浏览器) CopyRight 2006-2012</p>
+            <p class="rx"> <span><a id="FootControl1_DomainCopyright_ctl00_HyperLinkUrl" href="http://www.uk86.cn" target="_blank"><span id="FootControl1_DomainCopyright_ctl00_labelPoweredBy"></span></a>
+                </span><span><a href="http://www.uk86.cn/"><span id="FootControl1_DomainCopyright_ctl00_labelBottomWebsiteName"></span></a>
+                </span><span></span><span><a href="http://www.uk86.cn/"><span id="FootControl1_DomainCopyright_ctl00_labelICPNum"></span></a>
+                </span>
+            </p>
+            </span>
+            </span>
+        </div>
+    </div>
+</div> -->
+</div>
+<script type="text/javascript" src="<?php echo RESOURCE_SITE_URL;?>/js/slider.js"></script>
+<script type="text/javascript">
+    $(".scrolllist").xslider({
+        unitdisplayed: 4,
+        movelength: 2,
+        unitlen: 211, //移动的单位宽或高度     默认查找li的尺寸;
+        autoscroll: null //自动移动间隔时间     默认null不自动移动;
+    });
+</script>
+<script>
+    $('.cp_pj').hover(function() {
+        $(this).find('.cp_xx').toggle();
+    })
+</script>
+<!--底部结束-->
